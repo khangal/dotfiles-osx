@@ -16,7 +16,7 @@
       # $ nix-env -qaP | grep wget
       environment.systemPackages =
         [ pkgs.tmux pkgs.eza pkgs.bat pkgs.jq pkgs.lazydocker pkgs.aerospace pkgs.mkalias pkgs.k9s 
-	pkgs.mise pkgs.fzf pkgs.ripgrep pkgs.htop pkgs.rcm
+          pkgs.mise pkgs.fzf pkgs.ripgrep pkgs.htop pkgs.rcm pkgs.yazi
         ];
 
       # Necessary for using flakes on this system.
